@@ -4,9 +4,13 @@ package = Checkpoint
 project = Checkpoint
 version = 7.x-1.0
 
-; Contributed Modules
-
 ; Components
 dependencies[] = common
 
-features[features_api][] = api:2
+; Contributed Modules
+dependencies[] = entity_translation
+dependencies[] = features_translations
+dependencies[] = i18n
+dependencies[] = i18nviews
+dependencies[] = l10n_update
+dependencies[] = translation_helpers
